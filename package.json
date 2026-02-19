@@ -1,0 +1,28 @@
+{
+    "name": "kosu-oyunu",
+    "version": "1.0.0",
+    "description": "Bir kosu oyunu",
+    "main": "backend/server.js",
+    "scripts": {
+        "start": "node backend/server.js",
+        "build": "webpack --mode production",
+        "dev": "webpack serve --mode development"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "@babel/preset-react": "^7.12.10",
+        "babel-loader": "^8.2.2",
+        "webpack": "^5.24.2",
+        "webpack-cli": "^4.5.0",
+        "webpack-dev-server": "^3.11.2"
+    }
+}
